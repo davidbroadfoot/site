@@ -3,7 +3,7 @@ html {
   padding: 0;
   font: normal 100%/1.4 Georgia,serif;
 }
-body {background-color: #c0dfd9;
+body {background-color: white;
   display: grid;
   grid-template-columns:
   1fr [container-start]repeat(6, minmax(100px, 250px))
@@ -12,12 +12,9 @@ body {background-color: #c0dfd9;
 }
 
 
-.container {
-  display: grid;
-
-}
 
 .title-area {
   grid-column: 1 / 9;
   text-align: center;
+  background-color: #c0dfd9;
 }
