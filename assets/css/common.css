@@ -8,12 +8,12 @@ body {background-color: #c0dfd9
 }
 
 h1 {
-  font: helvetica;
+  font-family: : helvetica;
 
 }
 
 h2 {
-  font: helvetica;
+  font-family: : helvetica;
 }
 .container {
   display: grid;
