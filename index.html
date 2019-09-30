@@ -6,12 +6,13 @@ layout: default
 <div class="title-area">
 
 
-<h1> {{ page.title }}  </h1>
+<h1 class="title"> {{ page.title }}  </h1>
   <p class="sub-title"> {{ page.description }} </p>
   </div>
   <li> <a href="about.html">About Me</a></li>
   <li> <a href="blog.html">Blog</a></li>
 
+<h2> Most Recent Post </h2>
   <ul>
     {% for post in site.posts limit:1 %}
     <li>
