@@ -1,3 +1,5 @@
+---
 markdown: kramdown
 baseurl: davidbroadfoot.ca
 exclude: ['README.md']
+---
