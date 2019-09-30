@@ -23,3 +23,8 @@ h2 {
   display: grid;
 
 }
+
+.title-area {
+  grid-column: 1 / 9;
+  text-align: center;
+}
