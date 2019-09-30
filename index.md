@@ -1,5 +1,5 @@
 ---
-title:My Home Page
+title: My Home Page
 description: David's Posts on Education
 layout: default
 ---
