@@ -7,7 +7,14 @@ body {background-color: #c0dfd9
 
 }
 
+h1 {
+  font: helvetica;
 
+}
+
+h2 {
+  font: helvetica;
+}
 .container {
   display: grid;
 
