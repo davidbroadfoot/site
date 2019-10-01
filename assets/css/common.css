@@ -160,7 +160,11 @@ grid-column: 1 / 12;
   grid-gap: inherit;
 }
 .index__posts {
-  grid-column: span 3;
+  grid-column: span 2;
+}
+
+.index__posts:first-of-type {
+  grid-column: 2 / 5;
 }
 
 .index_image {
