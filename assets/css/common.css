@@ -61,7 +61,7 @@ grid-column: col-start 2 / span 6;
    display:grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 10px;
-   grid-column: col-start 1 / span 2;
+   grid-column: col-start 1 / span 1;
  }
 
 
