@@ -149,10 +149,15 @@ grid-column: 1 / 12;
 }
 .index_heading {
   grid-column: col-start 1 / span 12;
+
+
+}
+
+.index__posts_grid{
+  grid-column: col-start 1 / span 12;
   display: grid;
   grid-template-columns: inherit;
   grid-gap: inherit;
-
 }
 .index__posts {
   grid-column: span 3;
