@@ -64,6 +64,10 @@ li {
 grid-column: col-start 2 / span 7;
 }
 
+.sidebar {
+  grid-column: 10 / 12;
+}
+
 .older-posts {
 grid-column: col-start 1 / span 12;
 display: grid;
