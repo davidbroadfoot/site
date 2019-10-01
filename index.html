@@ -19,6 +19,7 @@ layout: default
       <a href="{{ post.url }}">{{post.title}}</a></li>
       {{ page.date | date_to_string }}
       {{post.description}}
+      <li>  <a href="{{ post.url }}"><img class="index_img" src="{{ post.image }}"> </a> </li>
     <li>  {{post.excerpt}}
     </li>
     <a class="blog__link__main" href="{{post.url}}">Read More</a>
