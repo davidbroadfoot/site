@@ -54,3 +54,8 @@ li {
   display: grid;
   grid-column: 3 / 7;
 }
+
+.older-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem,1fr));
+}
