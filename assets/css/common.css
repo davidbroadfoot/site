@@ -65,7 +65,7 @@ grid-column: col-start 2 / span 7;
 }
 
 .sidebar1 {
-  grid-column: col-start 10 / span 3;
+  grid-column: col-start 10 / span 2;
 }
 
 .older-posts {
@@ -137,6 +137,7 @@ grid-column: 1 / 12;
 }
 
 .sidebar_speech {
+  font-family: 'Merriweather',serif;
   font-size: .8em;
   text-align: justify;
 }
