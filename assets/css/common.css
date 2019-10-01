@@ -4,9 +4,7 @@ html {
   font: normal 100%/1.4 Georgia,serif;
 }
 body {background-color: white;
-  display: grid;
-  grid-template-rows:
-  grid-template-columns: repeat(auto-fit, minmax(12rem,1fr));
+
 
 }
 
@@ -17,8 +15,8 @@ body {background-color: white;
 
 .title-area {
   margin: 0;
-  display: grid;
-  grid-column: 1 / 7;
+
+
   text-align: center;
   background-color: #c0dfd9;
 }
@@ -37,8 +35,8 @@ margin: 0;
 
 footer {
   margin-top: 4em;
-  display: grid;
-  grid-column: 1 / 7;
+
+
   text-align: center;
   background-color: #c0dfd9;
 }
