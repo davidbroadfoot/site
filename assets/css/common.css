@@ -46,7 +46,7 @@ li {
 
 .recent-posts {
 
-grid-column: col-start 2 / span 12;
+grid-column: col-start 2 / span 7;
 }
 
 .older-posts {
