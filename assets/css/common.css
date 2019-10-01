@@ -117,3 +117,8 @@ grid-column: 1 / 12;
   background-color: #C7C6C6;
   border: 2px;
 }
+
+.square {
+  height:75px;
+  width:75px;
+}
