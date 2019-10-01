@@ -32,7 +32,7 @@ layout: default
   {% for post in site.posts limit:3 offset:1 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {{ post.date}}
+      {{ post.date | date_to_string }}
      {{post.description}}
 
   {% endfor %}
