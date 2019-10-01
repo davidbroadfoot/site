@@ -24,8 +24,9 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-<div class="older-posts">
+
   <h2> Older Blog Posts </h2>
+  <div class="older-posts">
   <ul>
   {% for post in site.posts limit:3 offset:1 %}
     <li>
