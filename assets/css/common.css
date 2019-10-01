@@ -81,6 +81,7 @@ grid-column: 1 / 12;
   padding: .7em 2.4em;
   border: 2px;
   text-decoration: none;
+  text-align: center;
   text-transform: uppercase;
 }
 
