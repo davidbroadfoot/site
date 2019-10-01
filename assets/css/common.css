@@ -58,11 +58,12 @@ grid-column: 2 / 6;
 }
 
 .older-posts {
-  
+
 grid-column: 2 / 5;
 
 }
 
 .footer {
   grid-column: 1 / 7;
+  text-align: center;
 }
