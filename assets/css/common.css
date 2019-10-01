@@ -74,3 +74,12 @@ grid-gap: inherit;
 .older-h2 {
 grid-column: 1 / 12;
 }
+
+
+.blog__link__main {
+  display: inline-block;
+  padding: .7em 2.4em;
+  background: red;
+  text-decoration: none;
+  text-transform: uppercase;
+}
