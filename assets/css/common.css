@@ -51,9 +51,7 @@ grid-column: col-start 2 / span 6;
 
 .older-posts {
 grid-column: col-start 1 / span 12;
-display: grid;
-grid-template-columns: inherit;
-grid-gap: inherit;
+
 
 
 
@@ -63,9 +61,6 @@ grid-gap: inherit;
    grid-column-start: 1 span 2;
  }
 
-.older-blog {
-  grid-column: span 2;
-}
 
 .footer {
   grid-area: footer;
