@@ -49,3 +49,8 @@ ul {
 li {
   list-style-type: none;
 }
+
+.recent-posts {
+  display: grid;
+  grid-column: 3 / 7;
+}

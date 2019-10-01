@@ -11,7 +11,7 @@ layout: default
   </div>
   <li> <a href="about.html">About Me</a></li>
   <li> <a href="blog.html">Blog</a></li>
-
+<div class="recent-posts">
 <h2> Most Recent Post </h2>
   <ul>
     {% for post in site.posts limit:1 %}
@@ -23,7 +23,7 @@ layout: default
     </li>
     {% endfor %}
   </ul>
-
+</div>
   <h2> Older Blog Posts </h2>
   <ul>
   {% for post in site.posts limit:3 offset:1 %}
