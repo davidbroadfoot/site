@@ -10,7 +10,10 @@ body {background-color: white;
 
 }
 
+.container{
+  display: grid;
 
+}
 
 .title-area {
   margin: 0;
@@ -27,8 +30,7 @@ body {background-color: white;
 
 
 p {
-display: grid;
-grid-column: 3 / 7;
+
 margin: 0;
 }
 
@@ -52,12 +54,9 @@ li {
 }
 
 .recent-posts {
-  display: grid;
-  grid-column: 3 / 7;
+
 }
 
 .older-posts {
-  display: grid;
-  grid-row: 1;
-  grid-template-columns: repeat(auto-fit, minmax(12rem,1fr));
+
 }
