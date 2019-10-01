@@ -50,7 +50,7 @@ grid-column: col-start 2 / span 7;
 }
 
 .older-posts {
-grid-column: col-start 1 / span 12;
+grid-column: col-start 2 / span 7;
 display: grid;
 grid-template-columns: inherit;
 grid-gap: inherit;
@@ -59,11 +59,15 @@ grid-gap: inherit;
 }
 
 .blog-post {
-  grid-column: span 3;
+  grid-column: span 2;
 }
 
 .footer {
   grid-area: footer;
   grid-column: 1 / 7;
   text-align: center;
+}
+
+.older-h2 {
+
 }
