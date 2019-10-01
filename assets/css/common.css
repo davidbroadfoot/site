@@ -18,7 +18,7 @@ body {background-color: white;
 
 .title-area {
   margin: 0;
-  grid-column: 1 / 6;
+  grid-column: 1 / 7;
   text-align: center;
   background-color: #c0dfd9;
 }
