@@ -68,7 +68,9 @@ grid-gap: inherit;
   grid-column: 1 / 8;
 
 }
-
+ul {
+  grid-column: span 2;
+}
 
 }
 
