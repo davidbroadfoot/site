@@ -10,7 +10,9 @@ body {background-color: white;
 
 
 }
-
+a {
+  color: black;
+}
 a:link{
   text-decoration: none;
   text-decoration-color: black;
