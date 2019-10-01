@@ -141,3 +141,13 @@ grid-column: 1 / 12;
   font-size: .8em;
 
 }
+
+.index__container {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 20px;
+}
+
+.index__posts {
+  grid-column: span 3;
+}
