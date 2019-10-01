@@ -61,6 +61,10 @@ grid-gap: inherit;
 h2 {
   font-family: 'Raleway', sans-serif;
 }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
 .blog-post {
   grid-column: span 3;
 }
