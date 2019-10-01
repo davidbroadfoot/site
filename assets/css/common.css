@@ -10,19 +10,14 @@ body {background-color: white;
 
 .container{
   display: grid;
-  grid-template-areas:
-  "header"
-  "main"
-  "older"
-  "footer";
+  grid-template-columns: repeat(12, [col-start] 1fr);
   grid-gap: 20px;
 
 }
 
 .title-area {
-grid-area: header;
   margin: 0;
-  grid-column: 1 / 7;
+  grid-column: col-start / span 12;
   text-align: center;
   background-color: #c0dfd9;
 }
@@ -39,14 +34,6 @@ margin: 0;
 }
 
 
-footer {
-  margin-top: 4em;
-
-
-  text-align: center;
-  background-color: #c0dfd9;
-}
-
 ul {
   list-style-type: none;
   padding:0;
@@ -58,13 +45,12 @@ li {
 }
 
 .recent-posts {
-  grid-area: main;
-grid-column: 2 / 6;
+
+grid-column: col-start 2 / span 6;
 }
 
 .older-posts {
-grid-area: older;
-grid-column: 1 / 7;
+grid-column: col-start 1 / span 12;
 display: grid;
 grid-template-columns: inherit;
 grid-gap: inherit;
