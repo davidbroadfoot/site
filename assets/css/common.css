@@ -5,6 +5,7 @@ html {
 }
 body {background-color: white;
   display: grid;
+  grid-template-rows:
   grid-template-columns: repeat(auto-fit, minmax(12rem,1fr));
 
 }
@@ -57,5 +58,6 @@ li {
 
 .older-posts {
   display: grid;
+  grid-row: 1;
   grid-template-columns: repeat(auto-fit, minmax(12rem,1fr));
 }
