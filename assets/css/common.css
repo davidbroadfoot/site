@@ -28,4 +28,14 @@ body {background-color: white;
 
 p {
 
+grid-colimn: 3 / 6;
+}
+
+
+footer {
+  margin: 0;
+  display: grid;
+  grid-column: 1 / 7;
+  text-align: center;
+  background-color: #c0dfd9;
 }
