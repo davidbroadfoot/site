@@ -65,14 +65,14 @@ grid-template-columns: inherit;
 grid-gap: inherit;
 
   h2 {
-  grid-column: 1 / 8;
+  grid-column: 1 / 7;
 
 }
 
 
 }
  .blog-post {
-   grid-column: span 2;
+   grid-column-start: 1 span 2;
  }
 
 
