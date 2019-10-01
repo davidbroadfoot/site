@@ -36,6 +36,7 @@ a:hover {
   margin: 0;
   grid-column: col-start / span 12;
   text-align: center;
+  padding: .3em;
   background-color: #c0dfd9;
 }
 
