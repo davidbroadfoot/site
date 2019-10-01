@@ -10,13 +10,17 @@ body {background-color: white;
 
 .container{
   display: grid;
-  grid-template-rows: 15em 20em 12em 12em;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "header"
+  "main"
+  "older"
+  "footer";
   grid-gap: 20px;
 
 }
 
 .title-area {
+grid-area: header;
   margin: 0;
   grid-column: 1 / 7;
   text-align: center;
@@ -54,11 +58,12 @@ li {
 }
 
 .recent-posts {
+  grid-area: main;
 grid-column: 2 / 6;
 }
 
 .older-posts {
-
+grid-area: older;
 grid-column: 1 / 7;
 display: grid;
 grid-template-columns: inherit;
@@ -77,6 +82,7 @@ grid-gap: inherit;
 }
 
 .footer {
+  grid-area: footer;
   grid-column: 1 / 7;
   text-align: center;
 }
