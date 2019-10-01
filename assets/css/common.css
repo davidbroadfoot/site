@@ -124,5 +124,5 @@ grid-column: 1 / 12;
 }
 
 .index_img {
-  max-width: 100%;
+  grid-column: 2 / 6;
 }
