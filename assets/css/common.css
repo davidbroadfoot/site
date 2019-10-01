@@ -13,6 +13,7 @@ body {background-color: white;
 
 a:link{
   text-decoration: none;
+  text-decoration-color: black;
 }
 
 a:visited{
