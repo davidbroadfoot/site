@@ -65,7 +65,7 @@ grid-column: col-start 2 / span 7;
 }
 
 .sidebar {
-  grid-column: 10 / 12;
+  grid-column: col-start 9 / span 3;
 }
 
 .older-posts {
