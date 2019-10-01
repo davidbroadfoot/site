@@ -164,9 +164,9 @@ grid-column: 1 / 12;
 }
 
 .index__posts:first-of-type {
-  grid-column: 2 / 5;
+  grid-column: 2 / 4;
 }
 
 .index_image {
-  max-width: 50%;
+  max-width: 100%;
 }
