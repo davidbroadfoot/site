@@ -26,7 +26,7 @@ body {background-color: white;
 
 
 p {
-
+display: grid;
 grid-column: 3 / 7;
 margin: 0;
 }
