@@ -10,7 +10,7 @@ body {background-color: white;
 
 .container{
   display: grid;
-  grid-template-rows: 12em 12em 12em 12em;
+  grid-template-rows: 15em 12em 12em 12em;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 
