@@ -60,8 +60,19 @@ grid-column: 2 / 6;
 .older-posts {
 
 grid-column: 2 / 5;
+display: grid;
+grid-template-columns: inherit;
+grid-gap: inherit;
+
+h2 {
+  grid-column: 2 / 8;
 
 }
+
+
+}
+
+
 
 .footer {
   grid-column: 1 / 7;
