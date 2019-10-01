@@ -59,9 +59,12 @@ grid-gap: inherit;
 }
 
 .blog-post {
-  grid-column: col-start 2 / span 3;
+  grid-column: span 3;
 }
 
+.blog-post:first-of-type {
+  grid-column-start: 2;
+}
 .footer {
 
   grid-column: 1 / 12;
