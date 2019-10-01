@@ -19,8 +19,8 @@ layout: default
       <a href="{{ post.url }}">{{post.title}}</a></li>
       {{ page.date | date_to_string }}
       {{post.description}}
-      <div class="card_img">  <a href="{{ post.url }}"><img src="{{ post.image }}"> </a> </li>
-    </div><li>  {{post.excerpt}}
+        <a href="{{ post.url }}"><img class="img__index" src="{{ post.image }}"> </a> </li>
+  <li>  {{post.excerpt}}
     </li>
     <a class="blog__link__main" href="{{post.url}}">Read More</a>
     {% endfor %}
