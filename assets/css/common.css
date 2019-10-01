@@ -57,11 +57,8 @@ grid-gap: inherit;
 
 
 
-
 }
- .blog-post {
-   grid-column: span 2;
- }
+
 
 
 .footer {
