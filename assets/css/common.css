@@ -64,10 +64,7 @@ display: grid;
 grid-template-columns: inherit;
 grid-gap: inherit;
 
-  h2 {
-  grid-column: 1 / 7;
 
-}
 
 
 }
@@ -75,6 +72,9 @@ grid-gap: inherit;
    grid-column-start: 1 span 2;
  }
 
+.older-blog {
+  grid-column: span 2;
+}
 
 .footer {
   grid-column: 1 / 7;

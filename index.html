@@ -28,9 +28,10 @@ layout: default
 
   <div class="older-posts">
       <h2> Older Blog Posts </h2>
-  <ul>
+  <ul class="older-blog">
+      <div class="blog-post">
   {% for post in site.posts limit:3 offset:1 %}
-    <div class="blog-post">
+
       <a href="{{ post.url }}">{{ post.title }}</a>
       <p class="post__desc">
       {{ post.date | date_to_string }}
