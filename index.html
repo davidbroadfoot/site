@@ -21,7 +21,7 @@ layout: default
       {{post.description}}
     <li>  {{post.excerpt}}
     </li>
-    <a class="blog__link" href="{{post.url}}">Read More</a>
+    <a class="blog__link__main" href="{{post.url}}">Read More</a>
     {% endfor %}
   </ul>
 </div>
@@ -37,6 +37,7 @@ layout: default
       <p class="post__desc">
       {{ post.date | date_to_string }}</li>
     <li> {{post.description}}</p></li>
+    <a class="blog__link" href="{{post.url}}">Read More</a>
    </div>
 
   {% endfor %}
