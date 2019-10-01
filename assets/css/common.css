@@ -83,3 +83,11 @@ grid-column: 1 / 12;
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.blog__link {
+  display: inline-block;
+  border: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px;
+}
