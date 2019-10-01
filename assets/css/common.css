@@ -63,8 +63,8 @@ grid-gap: inherit;
 }
 
 .footer {
-  grid-area: footer;
-  grid-column: 1 / 7;
+
+  grid-column: 1 / 12;
   text-align: center;
 }
 
