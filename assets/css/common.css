@@ -54,7 +54,7 @@ li {
 }
 
 .recent-posts {
-
+grid-column: 2 / 5;
 }
 
 .older-posts {
