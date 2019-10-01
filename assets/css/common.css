@@ -27,7 +27,8 @@ body {background-color: white;
 
 p {
 
-grid-column: 3 / 6;
+grid-column: 3 / 7;
+margin: 0;
 }
 
 
