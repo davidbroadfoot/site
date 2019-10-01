@@ -126,6 +126,6 @@ grid-column: 1 / 12;
 
 .img__index {
   grid-column: 2 / 6;
-  width: 100%;
+  max-width: 100%;
   height: 20vh;
 }
