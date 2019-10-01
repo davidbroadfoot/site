@@ -82,6 +82,7 @@ grid-column: 1 / 12;
   border: 2px;
   text-decoration: none;
   text-align: center;
+  background-color: #C7C6C6;
   text-transform: uppercase;
 }
 
@@ -90,5 +91,6 @@ grid-column: 1 / 12;
   border: 1em;
   text-decoration: none;
   text-transform: uppercase;
+  background-color: #C7C6C6;
   border: 2px;
 }
