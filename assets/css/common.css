@@ -149,6 +149,10 @@ grid-column: 1 / 12;
 }
 .index_heading {
   grid-column: 1 / 12;
+  display: grid;
+  grid-template-columns: inherit;
+  grid-gap: inherit;
+
 }
 .index__posts {
   grid-column: span 3;
