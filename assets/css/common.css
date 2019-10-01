@@ -64,6 +64,7 @@ grid-gap: inherit;
 
 .blog-post:first-of-type {
   grid-column-start: 2;
+  grid-column: span 3;
 }
 .footer {
 
