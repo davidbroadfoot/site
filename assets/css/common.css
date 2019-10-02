@@ -233,6 +233,11 @@ grid-column: 1 / 13;
 }
 
 @media (max-width: 550px) {
+
+.container > * {
+  grid-column: col-start / span 13;
+}
+
   .excerpt {
     display: none;
   }
