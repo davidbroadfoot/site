@@ -275,4 +275,8 @@ grid-column: 1 / 13;
   .business-card {
     display: none;
   }
+
+  .business-text{
+    text-align: center;
+  }
 }
