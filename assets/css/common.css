@@ -108,7 +108,9 @@ h3 {
 .blog-post {
   grid-column: span 3;
 }
-
+.blog-main{
+  grid-column: col-start 2 / span 9;
+}
 .blog-post:first-of-type {
   grid-column: 2 / 5;
 }
