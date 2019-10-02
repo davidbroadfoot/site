@@ -38,6 +38,7 @@ a:hover {
   text-align: center;
   padding: .3em;
   background-color: #c0dfd9;
+  border: 5px;
 }
 
 .title {
