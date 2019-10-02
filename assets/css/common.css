@@ -93,6 +93,7 @@ grid-column: col-start 2 / span 9;
 .blog-sidebar {
   grid-column: col-start 11 / span 3;
 }
+
 .older-posts {
 grid-column: col-start 1 / span 13;
 display: grid;
