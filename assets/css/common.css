@@ -91,7 +91,7 @@ grid-column: col-start 2 / span 9;
 }
 
 .blog-sidebar {
-  grid-column: col-start 11 / span 3;
+  grid-column: col-start 12 / span 1;
 }
 
 .older-posts {
