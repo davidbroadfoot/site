@@ -12,6 +12,10 @@ layout: default
 <div class="blog-main">
 <body>   {{ content }} </body>
 </div>
+<div class="blog-sidebar">
+  <a href="/index.html"><h2>Home</h2></a><br><br>
+<a href="/blog.html"><h2>Archive</h2></a>
+</div>
 <div class="page-navigation">
   {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}"><h3>&laquo;{{page.previous.title}}</h3></a>
