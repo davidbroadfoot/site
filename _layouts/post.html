@@ -12,6 +12,14 @@ layout: default
 <div class="blog-main">
 <body>   {{ content }} </body>
 </div>
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
 <div class="footer">
 <h3>David Broadfoot - employee no. 255928 - 1-(705)-716-5774</h3>
 </div>
