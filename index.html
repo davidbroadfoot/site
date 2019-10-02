@@ -18,7 +18,7 @@ layout: default
     {% for post in site.posts limit:1 %}
     <li>
       <a class="blog-title" href="{{ post.url }}">{{post.title}}</a></li>
-      {{ page.date | date_to_string }}
+    <p>  {{ page.date | date_to_string }}</p>
       <p>{{post.description}}</p><li>
         <a class="image_link" href="{{ post.url }}"><img class="img__index" src="{{ post.image }}"> </a> </li>
   <li>  {{post.excerpt}}
