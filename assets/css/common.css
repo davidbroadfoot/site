@@ -232,7 +232,7 @@ grid-column: 1 / 13;
   max-width: 100%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 
 .container > * {
   grid-column: col-start / span 13;
@@ -259,7 +259,7 @@ grid-column: 1 / 13;
   }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 600px) {
   .img-small {
     display: none;
   }
