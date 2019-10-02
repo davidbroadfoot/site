@@ -257,6 +257,14 @@ grid-column: 1 / 13;
   .blog-post:first-of-type {
     grid-column: col-start / span 13;
   }
+
+  .title-area {
+    border-style: none;
+  }
+
+  .sub-title1{
+    display: none;
+  }
 }
 
 @media (min-width: 600px) {
