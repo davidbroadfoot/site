@@ -10,6 +10,7 @@ layout: default
 <h4 class="sub-title">{{ page.date | date_to_string }} - {{ page.author }}</h4></div>
 
 <div class="blog-main">
+  {% include share-bar.html %}
 <body>   {{ content }} </body>
 </div>
 <div class="blog-sidebar">
