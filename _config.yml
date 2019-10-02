@@ -2,4 +2,6 @@
 markdown: kramdown
 url: http://davidbroadfoot.ca
 exclude: ['README.md']
+twitter:
+    username: edubroadfoot
 ---
