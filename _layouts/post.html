@@ -7,10 +7,11 @@ layout: default
 <h1 class="title">{{ page.title }}</h1>
 </div>
 <div class="sub-title-div">
-<h4 class="sub-title">{{ page.date | date_to_string }} - {{ page.author }}</h4></div>
+<h4 class="sub-title">{{ page.date | date_to_string }} - {{ page.author }}</h4>
+<li>{% include share-bar.html %}</li></div>
 
 <div class="blog-main">
-  {% include share-bar.html %}
+
 <body>   {{ content }} </body>
 </div>
 <div class="blog-sidebar">
