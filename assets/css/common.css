@@ -271,4 +271,8 @@ grid-column: 1 / 13;
   .img-small {
     display: none;
   }
+
+  .business-card {
+    display: none;
+  }
 }
