@@ -21,7 +21,7 @@ layout: default
     <li>
       {% include share-bar.html %}
         <a class="image_link" href="{{ post.url }}"><img class="img__index" src="{{ post.image }}"> </a> </li>
-  <li>  {{post.excerpt}}
+  <li> <div class="excerpt"> {{post.excerpt}} </div>
     </li>
     <a class="blog__link__main" href="{{post.url}}">Read More</a>
     {% endfor %}
