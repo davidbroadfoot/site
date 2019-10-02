@@ -190,3 +190,9 @@ grid-column: 1 / 13;
 .index_image {
   max-width: 100%;
 }
+
+.footer-font {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
