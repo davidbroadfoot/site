@@ -113,7 +113,7 @@ h4 {
   grid-column: span 3;
 }
 .blog-main{
-  grid-column: col-start 2 / span 9;
+  grid-column: col-start 3 / span 8;
 }
 .sub-title-div{
   grid-column: col-start 2 / span 10;
