@@ -105,6 +105,10 @@ h1 {
 h3 {
   font-family: 'Raleway', sans-serif;
 }
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
 .blog-post {
   grid-column: span 3;
 }
