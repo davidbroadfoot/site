@@ -208,3 +208,7 @@ grid-column: 1 / 13;
 .index_image {
   max-width: 100%;
 }
+
+.PageNagivation {
+  grid-column: col-start 3 / span 8;
+}
