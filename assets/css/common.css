@@ -129,6 +129,18 @@ h4 {
 
 .page-navigation {
   grid-column: col-start 3 / span 8;
+
+}
+
+.page-navigation .next {
+  text-align: right;
+}
+
+.page-navigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
 }
 
 .footer {
