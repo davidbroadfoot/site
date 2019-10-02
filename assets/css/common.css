@@ -232,7 +232,7 @@ grid-column: 1 / 13;
   max-width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .excerpt {
     display: none;
   }
