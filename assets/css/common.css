@@ -245,6 +245,18 @@ grid-column: 1 / 13;
   .img-big {
     display:none;
   }
+
+  .sidebar1 {
+    display: none;
+  }
+
+  .blog-post {
+    grid-column: col-start / span 13;
+  }
+
+  .blog-post:first-of-type {
+    grid-column: col-start / span 13;
+  }
 }
 
 @media (min-width: 550px) {
