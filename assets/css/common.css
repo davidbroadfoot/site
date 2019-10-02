@@ -209,6 +209,6 @@ grid-column: 1 / 13;
   max-width: 100%;
 }
 
-.PageNagivation {
+.page-nagivation {
   grid-column: col-start 3 / span 8;
 }
