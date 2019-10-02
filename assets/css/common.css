@@ -265,6 +265,10 @@ grid-column: 1 / 13;
   .sub-title1{
     display: none;
   }
+
+  .business-text{
+    text-align: center;
+  }
 }
 
 @media (min-width: 600px) {
@@ -276,7 +280,9 @@ grid-column: 1 / 13;
     display: none;
   }
 
-  .business-text{
-    text-align: center;
+  .business-text {
+    display:none;
   }
+
+
 }
