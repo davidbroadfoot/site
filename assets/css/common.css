@@ -36,9 +36,11 @@ a:hover {
   margin: 0;
   grid-column: col-start / span 13;
   text-align: center;
-  padding: .3em;
+  padding: .6em;
+  border-style: solid;
+  border-width: 1px;
   background-color: #c0dfd9;
-  border: 5px;
+
 }
 
 .title {
