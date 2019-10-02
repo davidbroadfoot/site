@@ -191,7 +191,7 @@ grid-column: 1 / 13;
   max-width: 100%;
 }
 
-p #footer-font {
+p#footer-font {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 3em;
