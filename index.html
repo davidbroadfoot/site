@@ -20,7 +20,7 @@ layout: default
       <a class="blog-title" href="{{ post.url }}">{{post.title}}</a></li>
       {{ page.date | date_to_string }}
       {{post.description}}<li>
-        <a href="{{ post.url }}"><img class="img__index" src="{{ post.image }}"> </a> </li>
+        <a class="image_link" href="{{ post.url }}"><img class="img__index" src="{{ post.image }}"> </a> </li>
   <li>  {{post.excerpt}}
     </li>
     <a class="blog__link__main" href="{{post.url}}">Read More</a>
@@ -46,7 +46,7 @@ On this blog you will find lessons, resources, and research relating to these fi
   {% for post in site.posts limit:3 offset:1 %}
       <div class="blog-post">
 
-        <a class="blog-title" href="{{ post.url }}"><img class="card_img" src="{{ post.image }}"> </a>
+        <a class="image_link" href="{{ post.url }}"><img class="card_img" src="{{ post.image }}"> </a>
       <li><a class="blog-title" href="{{ post.url }}">{{ post.title }}</a></li><li>
       <p class="post__desc">
       {{ post.date | date_to_string }}</li>
