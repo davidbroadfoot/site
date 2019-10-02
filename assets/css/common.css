@@ -177,17 +177,17 @@ grid-column: 1 / 13;
 
 .index__container {
   display: grid;
-  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-template-columns: repeat(13, [col-start] 1fr);
   grid-gap: 20px;
 }
 .index_heading {
-  grid-column: col-start 1 / span 12;
+  grid-column: col-start 2 / span 13;
 
 
 }
 
 .index__posts_grid{
-  grid-column: col-start 1 / span 12;
+  grid-column: col-start 1 / span 13;
   display: grid;
   grid-template-columns: inherit;
   grid-gap: inherit;
