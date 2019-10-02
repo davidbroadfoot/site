@@ -241,4 +241,14 @@ grid-column: 1 / 13;
   .excerpt {
     display: none;
   }
+
+  .img-big {
+    display:none;
+  }
+}
+
+@media (min-width: 550px) {
+  .img-small {
+    display: none;
+  }
 }
