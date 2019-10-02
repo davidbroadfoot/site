@@ -210,5 +210,6 @@ grid-column: 1 / 13;
 }
 
 .page-nagivation {
+  display:grid;
   grid-column: col-start 3 / span 8;
 }
