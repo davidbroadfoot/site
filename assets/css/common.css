@@ -25,6 +25,12 @@ a:visited{
 a:hover {
   text-decoration: underline;
 }
+
+.image_link:hover {
+  -webkit-filter: brightness(0.3);
+  filter: brightness(0.3);
+
+}
 .container{
   display: grid;
   grid-template-columns: repeat(13, [col-start] 1fr);
