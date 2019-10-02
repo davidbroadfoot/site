@@ -6,8 +6,9 @@ layout: default
   <a href="/index.html"> <img src="/assets/images/logooo2.png"> </a>
 <h1 class="title">{{ page.title }}</h1>
 </div>
-<p class="sub-title">{{ page.date | date_to_string }} - {{ page.author }}</p>
-<body>
+<div class="sub-title-div>"
+<p class="sub-title">{{ page.date | date_to_string }} - {{ page.author }}</p></div>
+
 <div class="blog-main">
-   {{ content }} </body>
+<body>   {{ content }} </body>
 </div>

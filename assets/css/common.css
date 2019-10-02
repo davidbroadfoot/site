@@ -111,6 +111,9 @@ h3 {
 .blog-main{
   grid-column: col-start 2 / span 9;
 }
+.sub-title-div{
+  grid-column: col-start 2 / span 10;
+}
 .blog-post:first-of-type {
   grid-column: 2 / 5;
 }
