@@ -27,14 +27,14 @@ a:hover {
 }
 .container{
   display: grid;
-  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-template-columns: repeat(13, [col-start] 1fr);
   grid-gap: 20px;
 
 }
 
 .title-area {
   margin: 0;
-  grid-column: col-start / span 12;
+  grid-column: col-start / span 13;
   text-align: center;
   padding: .3em;
   background-color: #c0dfd9;
@@ -69,15 +69,15 @@ li {
 
 .recent-posts {
 
-grid-column: col-start 2 / span 8;
+grid-column: col-start 2 / span 9;
 }
 
 .sidebar1 {
-  grid-column: col-start 10 / span 2;
+  grid-column: col-start 11 / span 3;
 }
 
 .older-posts {
-grid-column: col-start 1 / span 12;
+grid-column: col-start 1 / span 13;
 display: grid;
 grid-template-columns: inherit;
 grid-gap: inherit;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .older-h2 {
-grid-column: 1 / 12;
+grid-column: 1 / 13;
 }
 
 
