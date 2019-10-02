@@ -126,6 +126,11 @@ h4 {
 .blog-post:first-of-type {
   grid-column: 2 / 5;
 }
+
+.page-nagivation {
+  grid-column: col-start 3 / span 8;
+}
+
 .footer {
 
   grid-column: 1 / 13;
@@ -207,9 +212,4 @@ grid-column: 1 / 13;
 
 .index_image {
   max-width: 100%;
-}
-
-.page-nagivation {
-  display:grid;
-  grid-column: col-start 3 / span 8;
 }
