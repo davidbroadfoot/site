@@ -269,6 +269,10 @@ grid-column: 1 / 13;
     grid-column: col-start / span 13;
   }
 
+  .index__posts:first-of-type {
+    grid-column: col-start / span 13;
+  }
+
   .title-area {
     border-style: none;
   }
