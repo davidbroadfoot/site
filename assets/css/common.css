@@ -237,7 +237,7 @@ grid-column: 1 / 13;
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 635px) {
 
 .container > * {
   grid-column: col-start / span 13;
@@ -292,7 +292,7 @@ grid-column: 1 / 13;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 635px) {
   .img-small {
     display: none;
   }
