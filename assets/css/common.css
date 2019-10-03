@@ -209,7 +209,7 @@ grid-column: 1 / 13;
   grid-gap: 20px;
 }
 .index_heading {
-  grid-column: col-start 2 / span 13;
+  grid-column: col-start / span 13;
   text-align: center;
 
 
