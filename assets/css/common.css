@@ -285,6 +285,8 @@ grid-column: 1 / 13;
     text-align: center;
     font-size: 1em;
     height: 80vh;
+    margin: inherit;
+
 
   }
 }
