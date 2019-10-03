@@ -232,6 +232,10 @@ grid-column: 1 / 13;
   max-width: 100%;
 }
 
+.business-blog {
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
 
 .container > * {
